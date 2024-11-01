@@ -11,3 +11,8 @@ Route::prefix('admin')->group(function () {
 Route::get('/greeting', function () {
     return 'Hello World';
 });
+
+
+Route::get('/greeting2', function () {
+    return 'Hello Worldsss';
+});
