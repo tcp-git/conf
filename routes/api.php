@@ -16,3 +16,7 @@ Route::get('/greeting', function () {
 Route::get('/greeting2', function () {
     return 'Hello Worldsss';
 });
+
+Route::get('/greeting5', function () {
+    return 'Hello Worldsss5555';
+});
